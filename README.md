@@ -8,6 +8,21 @@ This project aims to analyze customer behavior and build a predictive machine le
 Stakeholder
 SyriaTel Telecom
 
-Customer churn is a significant threat to recurring revenue. SyriaTel seeks a solution that not only predicts churn but also offers actionable insights to reduce it. This project focuses on exploring historical customer data to uncover patterns and build a model that distinguishes between loyal and churning customers.
+### Business Problem
+Customer churn significantly affects telecom revenue. The goal is to proactively detect customers at risk of leaving the service, allowing the business to take retention actions such as improved customer service or promotional offers.
 
-##
+
+## Data Understanding
+The dataset being used for this project was obtained from kaggle.
+
+The dataset includes information on:
+- Account length
+- Customer service calls
+- Minutes and charges during different times of the day
+- International and voice mail plans
+- Churn label (target variable)
+
+Key questions addressed:
+- What features are associated with churn?
+- How can we build a reliable model to predict it?
+

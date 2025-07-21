@@ -1,10 +1,10 @@
 #  Predictive Analysis of Customer Churn for SyriaTel Telecom
-## Overview
+## 1. Overview
 SyriaTel is a telecommunications company that, like many others in the industry, faces the challenge of customer churn (when customers discontinue their service or switch to competitors). Retaining existing customers is significantly more cost-effective than acquiring new ones, making churn reduction a key business priority.
 
 This project aims to analyze customer behavior and build a predictive machine learning model that can identify customers at risk of churning. By understanding the factors that contribute to churn, the company can design targeted retention strategies, optimize customer service efforts, and ultimately improve profitability.
 
-## Business Understanding
+## 2. Business Understanding
 Stakeholder
 SyriaTel Telecom
 
@@ -27,7 +27,7 @@ Key questions addressed:
 - How can we build a reliable model to predict it?
 
 
-##  Modeling
+## 3. Modeling
 
 ### Data Preparation
 - Null checks and cleaning
@@ -41,4 +41,22 @@ Key questions addressed:
 - (Other models can be added iteratively in case of need)
 
 A machine learning pipeline was used to ensure efficient and repeatable preprocessing and model training.
+
+## 4. Evaluation
+
+Each model was evaluated on:
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-Score**
+- **Confusion Matrix**
+- **ROC-AUC**
+
+**Logistic Regression Findings:**
+- High accuracy but low recall for churn class (imbalance issue)
+
+**Random Forest Findings:**
+- Improved recall and better F1-score on minority class
+- More robust performance across metrics
+
 

@@ -59,4 +59,16 @@ Each model was evaluated on:
 - Improved recall and better F1-score on minority class
 - More robust performance across metrics
 
+## 5. Conclusion
+
+Use Random Forest as your production model since it offers strong performance and a great balance of precision and recall. Logistic Regression can be kept for comparison, or to provide a baseline.
+
+The model successfully identifies patterns associated with churn, particularly:
+- High number of customer service calls
+- High day-time call charges
+
+**Next Steps:**
+- Use SMOTE or class weighting to further address class imbalance
+- Deploy the model for real-time scoring
+- Collaborate with business teams for retention campaigns based on predictions
 

@@ -26,3 +26,19 @@ Key questions addressed:
 - What features are associated with churn?
 - How can we build a reliable model to predict it?
 
+
+##  Modeling
+
+### Data Preparation
+- Null checks and cleaning
+- Encoding of categorical features
+- Feature scaling using StandardScaler
+- Splitting into training and testing sets
+
+### Models Used
+- **Logistic Regression**: As a baseline linear model
+- **Random Forest Classifier**: To capture nonlinear patterns and feature importance
+- (Other models can be added iteratively in case of need)
+
+A machine learning pipeline was used to ensure efficient and repeatable preprocessing and model training.
+

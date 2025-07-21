@@ -59,6 +59,21 @@ Each model was evaluated on:
 - Improved recall and better F1-score on minority class
 - More robust performance across metrics
 
+**Comparison between the two models**
+
+## Comparison between the Logistic Regression model and the Random Forest Classifier Model
+
+| Metric                | **Logistic Regression** | **Random Forest** | **Best**        |
+| --------------------- | ----------------------- | ----------------- | --------------- |
+| **Accuracy**          | 86%                     | **94%**           | ✅ Random Forest |
+| **Precision (Churn)** | 0.53                    | **0.88**          | ✅ Random Forest |
+| **Recall (Churn)**    | 0.24                    | **0.69**          | ✅ Random Forest |
+| **F1-Score (Churn)**  | 0.33                    | **0.77**          | ✅ Random Forest |
+| **AUC Score (ROC)**   | 0.82                    | **0.89**          | ✅ Random Forest |
+| **False Negatives**   | 74                      | **30**            | ✅ Random Forest |
+| **False Positives**   | 20                      | **9**             | ✅ Random Forest |
+
+
 ## 5. Conclusion
 
 Use Random Forest as your production model since it offers strong performance and a great balance of precision and recall. Logistic Regression can be kept for comparison, or to provide a baseline.

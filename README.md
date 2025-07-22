@@ -54,13 +54,16 @@ Each model was evaluated on:
 
 **Logistic Regression Findings:**
 - High accuracy but low recall for churn class (imbalance issue)
+![Confusion Matrix](images/Logistic%20Regression%20confusion%20matrix.png)
 
 **Decision Tree Findings**
 - The Decision Tree model achieved an AUC score of 0.84, indicating strong capability in distinguishing customers likely to churn from those who will stay.
+![](images/Dec%20Tree%20confusion%20matrix.png)
 
 **Random Forest Findings:**
 - Improved recall and better F1-score on minority class
 - More robust performance across metrics
+![RF confusion matrix](images/Random%20Forest%20Confusion%20Matrix.png)
 
 **Comparison of the three models**
 
@@ -74,6 +77,8 @@ Each model was evaluated on:
 | **F1-Score (Churn)**  | \~0.66                  | \~0.83            | 0.75              |
 | **ROC-AUC**           | \~0.89                  | \~0.96            | \~0.91            |
 
+Bar Graph comparison of the models
+![Performance Comparison](images/Model%20Performance%20Comparison.png)
 
 
 ## 5. Conclusion
@@ -89,3 +94,6 @@ The model successfully identifies patterns associated with churn, particularly:
 - Deploy the model for real-time scoring
 - Collaborate with business teams for retention campaigns based on predictions
 
+--- 
+This project was developed by:
+- *Pacificah Kwamboka Asamba* ([email](mailto:sikamboga1@gmail.com)) | [LinkedIn](https://www.linkedin.com/in/pacificah-omboga-42959b83/)

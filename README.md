@@ -5,8 +5,7 @@ SyriaTel is a telecommunications company that, like many others in the industry,
 This project aims to analyze customer behavior and build a predictive machine learning model that can identify customers at risk of churning. By understanding the factors that contribute to churn, the company can design targeted retention strategies, optimize customer service efforts, and ultimately improve profitability.
 
 ## 2. Business Understanding
-Stakeholder
-SyriaTel Telecom
+Stakeholder: SyriaTel Telecom
 
 ### Business Problem
 Customer churn significantly affects telecom revenue. The goal is to proactively detect customers at risk of leaving the service, allowing the business to take retention actions such as improved customer service or promotional offers.
@@ -15,7 +14,7 @@ Customer churn significantly affects telecom revenue. The goal is to proactively
 ## Data Understanding
 The dataset being used for this project was obtained from kaggle.
 
-The dataset includes information on:
+The dataset has 3,333 customer records, including information on:
 - Account length
 - Customer service calls
 - Minutes and charges during different times of the day
@@ -37,6 +36,7 @@ Key questions addressed:
 
 ### Models Used
 - **Logistic Regression**: As a baseline linear model
+- **Decision Tree Classifier** - a supervised machine learning algorithm used for classification tasks.
 - **Random Forest Classifier**: To capture nonlinear patterns and feature importance
 - (Other models can be added iteratively in case of need)
 
@@ -55,23 +55,25 @@ Each model was evaluated on:
 **Logistic Regression Findings:**
 - High accuracy but low recall for churn class (imbalance issue)
 
+**Decision Tree Findings**
+- The Decision Tree model achieved an AUC score of 0.84, indicating strong capability in distinguishing customers likely to churn from those who will stay.
+
 **Random Forest Findings:**
 - Improved recall and better F1-score on minority class
 - More robust performance across metrics
 
-**Comparison between the two models**
+**Comparison of the three models**
 
-## Comparison between the Logistic Regression model and the Random Forest Classifier Model
+## Model Performance comparison Table
 
-| Metric                | **Logistic Regression** | **Random Forest** | **Best**        |
-| --------------------- | ----------------------- | ----------------- | --------------- |
-| **Accuracy**          | 86%                     | **94%**           | ✅ Random Forest |
-| **Precision (Churn)** | 0.53                    | **0.88**          | ✅ Random Forest |
-| **Recall (Churn)**    | 0.24                    | **0.69**          | ✅ Random Forest |
-| **F1-Score (Churn)**  | 0.33                    | **0.77**          | ✅ Random Forest |
-| **AUC Score (ROC)**   | 0.82                    | **0.89**          | ✅ Random Forest |
-| **False Negatives**   | 74                      | **30**            | ✅ Random Forest |
-| **False Positives**   | 20                      | **9**             | ✅ Random Forest |
+| **Metric**            | **Logistic Regression** | **Random Forest** | **Decision Tree** |
+| --------------------- | ----------------------- | ----------------- | ----------------- |
+| **Accuracy**          | 91.3%                   | 94.1%             | 92.5%             |
+| **Precision (Churn)** | \~0.67                  | \~0.84            | 0.75              |
+| **Recall (Churn)**    | \~0.66                  | \~0.82            | 0.76              |
+| **F1-Score (Churn)**  | \~0.66                  | \~0.83            | 0.75              |
+| **ROC-AUC**           | \~0.89                  | \~0.96            | \~0.91            |
+
 
 
 ## 5. Conclusion

@@ -15,7 +15,7 @@ Customer churn significantly affects telecom revenue. The goal is to proactively
 
 
 ## Data Understanding
-The dataset being used for this project was obtained from kaggle.
+The dataset being used for this project was obtained from [kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset).
 
 The dataset has 3,333 customer records, including information on:
 - Account length
@@ -99,4 +99,4 @@ The model successfully identifies patterns associated with churn, particularly:
 
 --- 
 This project was developed by:
-- *Pacificah Kwamboka Asamba* ([email](mailto:sikamboga1@gmail.com)) | [LinkedIn](https://www.linkedin.com/in/pacificah-omboga-42959b83/)
+- *Pacificah Kwamboka Asamba* ([email](mailto:sikamboga1@gmail.com)) | [LinkedIn](https://www.linkedin.com/in/pacificah-omboga-42959b83/) | [Blog](https://medium.com/@sikamboga1)

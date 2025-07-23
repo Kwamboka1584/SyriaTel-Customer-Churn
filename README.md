@@ -1,9 +1,5 @@
 #  Predictive Analysis of Customer Churn for SyriaTel Telecom
 
-<img width="2084" height="1250" alt="image" src="https://github.com/user-attachments/assets/e3620ea3-b52b-4853-bb07-97dbe4fbb453" />
-
-
-
 ## 1. Overview
 SyriaTel is a telecommunications company that, like many others in the industry, faces the challenge of customer churn (when customers discontinue their service or switch to competitors). Retaining existing customers is significantly more cost-effective than acquiring new ones, making churn reduction a key business priority.
 
